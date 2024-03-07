@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172bb1a0a218f1149b8e5453ac7d175a, type: 3}
+  m_Name: PiratePatrolGroup
+  m_EditorClassIdentifier: 
+  AISpawnList:
+  - ShipPrefab: {fileID: 2825559706695748361, guid: 5dc06ad4b70306f44baf5a33a8b72f24, type: 3}
+    ShipObject: {fileID: 11400000, guid: 34d4335995d9b034fb8a32cffdc99ad6, type: 2}
+    ShipShieldObject: {fileID: 11400000, guid: 18639c451fc3d1744a15ea1c5fa4d708, type: 2}
+    Faction: 1
+    CanCheckPlayerInventory: 0
+    SpawnPoint: {fileID: 0}
+    SpawnAmout: 4
+    SpawnType: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2629480cc098c9a40994fb48eb2f523c, type: 3}
+  m_Name: Map1Station
+  m_EditorClassIdentifier: 
+  StationID: 1
+  StationName: Station Starter Area
+  HasLandingBay: 1
+  CanBuyIllegal: 1
+  ItemsList:
+  - Item: {fileID: 11400000, guid: 39fbead8916423a498418bcb97437eaa, type: 2}
+    Amount: 10
+  - Item: {fileID: 11400000, guid: 55e4c0d7bba93d44d9c1daff5d8cca1c, type: 2}
+    Amount: 5
+  - Item: {fileID: 11400000, guid: 63c9fccf6da00f1489e88f5e5b75347f, type: 2}
+    Amount: 200
+  - Item: {fileID: 11400000, guid: 738e47783a8aa7d4989672c10741ace8, type: 2}
+    Amount: 5
+  - Item: {fileID: 11400000, guid: 8266eb7463593944282b8372f406d5bd, type: 2}
+    Amount: 2
+  SearchForItemsList:
+  - Item: {fileID: 11400000, guid: 738e47783a8aa7d4989672c10741ace8, type: 2}
+    Amount: 1
+  SearchForRareItemsList:
+  - Item: {fileID: 11400000, guid: 812271d369b34e3499562d6d8005f526, type: 2}
+    Amount: 10
+  - Item: {fileID: 11400000, guid: 55e4c0d7bba93d44d9c1daff5d8cca1c, type: 2}
+    Amount: 20
+  StationPrice: 1000000

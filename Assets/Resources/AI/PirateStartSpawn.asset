@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9a52edd07c09845891b2b64dd9dd72, type: 3}
+  m_Name: PirateStartSpawn
+  m_EditorClassIdentifier: 
+  ReferencePoint: {fileID: 6413178626792427335, guid: 5751b43a48442f94582e0819c880f3b9, type: 3}
+  SpawnPoint: {fileID: 6413178626792427333, guid: 5751b43a48442f94582e0819c880f3b9, type: 3}
+  PatrolPoints: []

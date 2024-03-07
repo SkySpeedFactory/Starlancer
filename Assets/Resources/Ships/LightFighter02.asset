@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f39224829cd8d143a552305936e4950, type: 3}
+  m_Name: LightFighter02
+  m_EditorClassIdentifier: 
+  ShipID: 4
+  ShipName: Zoomi
+  ShipType: 1
+  Description: 
+  Price: 4000
+  MaxHealth: 600
+  YawPitchTorque: 150
+  RollTorque: 300
+  Thruster: 300
+  SideThruster: 150
+  UpDownThruster: 150
+  MainThrusterAcceleration: 3
+  SideThrusterAcceleration: 2
+  UpdDownAcceleration: 2
+  RollAcceleration: 3
+  WeaponSlots: []
